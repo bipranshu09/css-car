@@ -22,16 +22,17 @@ body{
 
 .box{
     width: 180px;
-    height: 190px;
+    height: 230px;
     background-color: #fff;
     padding: 20px;
     padding-top: 30px;
     margin: 20px;
-    box-shadow: 0 15px 15px rgba(165, 238, 92, 0.3);
+    box-shadow: 0 15px 15px aqua;
     overflow: hidden;
     position: relative;
     z-index: 0;
     text-align: center;
+    border-radius:20px;
 }
 
 
@@ -50,14 +51,16 @@ body{
     font-size: 15px;
     cursor: pointer;
     border-radius:50px;
-   margin-top: 7px;
+   margin-top: 20px;
 
 
 }
 .box button:hover{
    letter-spacing: 2px;
    transition: 0.2s;
-
+   background-color:aqua;
+    color:black;
+    width:110px;
 }
 
 .box::before{
